@@ -1,7 +1,13 @@
+/* BODY */
 body {
-    background: url(../backgrounds/brickwall.png);
+    background: linear-gradient(#8A8AE6, #00141A);
     font-family: 'Chelsea Market', cursive, Tahoma, Arial;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
+
 
 .hello {
     text-align: center;
@@ -13,7 +19,47 @@ body {
     font-size: 3em;
 }
 
+/* FOOTER */
+
+.buttons {
+	list-style-type: none;
+	text-align: center;
+}
+
+.buttons li{
+	float: left;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	padding: 0px;
+	display: inline;
+	width: auto;
+
+.buttons li a {
+	transition: all 0.3s ease 0s;
+	display: block;
+	float: left;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	text-indent: -9999px;
+}
+
+.buttons li a:hover {
+	background-position: 0 -40px;
+}
+.buttons li a {
+	background-color:transparent;
+
+.buttons li.twitter a {
+	background: url(icons/twitter.png) no-repeat 0 0;
+}
+
+.buttons li.twitter a:hover {
+	background-color: #48c4d2;
+
 .footer {
     text-align: center;
-    padding-top: 300px;
+    margin-bottom: 10px;
 }
