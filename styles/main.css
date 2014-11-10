@@ -7,8 +7,6 @@ body {
     padding: 0;
 }
 
-
-
 .hello {
     text-align: center;
     font-size: 10em;
@@ -24,40 +22,79 @@ body {
 .buttons {
 	list-style-type: none;
 	text-align: center;
+	margin: 0 !important;
+    padding: 0 !important;
 }
 
 .buttons li{
-	float: left;
-	margin-right: 2px;
-	margin-bottom: 2px;
-	padding: 0px;
-	display: inline;
-	width: auto;
+	/*float: left!important;*/
+	margin-right: 2px!important;
+	margin-bottom: 2px!important;
+	padding: 0px!important;
+	display: inline!important;
+	width: auto!important;
+}
 
 .buttons li a {
 	transition: all 0.3s ease 0s;
-	display: block;
-	float: left;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	width: 40px;
-	height: 40px;
-	text-indent: -9999px;
+	display: inline-block!important;
+	float: left!important;
+	height: 100%!important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 40px !important;
+	height: 40px !important;
+	text-indent: -9999px !important;
 }
 
 .buttons li a:hover {
 	background-position: 0 -40px;
 }
 .buttons li a {
-	background-color:transparent;
-
-.buttons li.twitter a {
-	background: url(icons/twitter.png) no-repeat 0 0;
+	background-color: transparent;
 }
 
+.buttons li.twitter a {
+	background: url(../icons/twitter.png) no-repeat 0 0;
+}
 .buttons li.twitter a:hover {
 	background-color: #48c4d2;
+}
+
+.social-icons li.facebook a {
+	background: url(../icons/facebook.png) no-repeat 0 0;
+}
+.social-icons li.facebook a:hover {
+	background-color: #3b5998;
+}
+
+.social-icons li.googleplus a {
+	background: url(../icons/googleplus.png) no-repeat 0 0;
+}
+.social-icons li.googleplus a:hover {
+	background-color: #d94a39;
+}
+
+.social-icons li.pinterest a {
+	background: url(../icons/pinterest.png) no-repeat 0 0;
+}
+.social-icons li.pinterest a:hover {
+	background-color: #cb2027;
+}
+
+.social-icons li.linkedin a {
+	background: url(../icons/linkedin.png) no-repeat 0 0;
+}
+.social-icons li.linkedin a:hover {
+	background-color: #71b2d0;
+}
+
+.social-icons li.flickr a {
+	background: url(../icons/flickr.png) no-repeat 0 0;
+}
+.social-icons li.flickr a:hover {
+	background-color: #f1628b;
+}
 
 .footer {
     text-align: center;
