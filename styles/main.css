@@ -1,7 +1,8 @@
 /* BODY */
 body {
-    background: linear-gradient(#8A8AE6, #00141A);
+    background: linear-gradient(#FAFFFF, #EBF5FF);
     font-family: 'Chelsea Market', cursive, Tahoma, Arial;
+    color:	#293D3D;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -24,31 +25,35 @@ body {
 	text-align: center;
 	margin: 0 !important;
     padding: 0 !important;
+    /*border: 2px !important;*/
 }
 
-.buttons li{
-	/*float: left!important;*/
+.buttons li {
+	/*float:left !important;*/
 	margin-right: 2px!important;
 	margin-bottom: 2px!important;
 	padding: 0px!important;
-	display: inline!important;
-	width: auto!important;
+	display: inline !important;
+	/*width: auto !important;*/
+	/*border: 2px;*/
 }
 
 .buttons li a {
-	transition: all 0.3s ease 0s;
-	display: inline-block!important;
-	float: left!important;
-	height: 100%!important;
+	transition: all 0.3s ease-in-out 0s;
+	float: left !important;
+	height: 100% !important;
 	margin: 0 !important;
 	padding: 0 !important;
 	width: 40px !important;
 	height: 40px !important;
-	text-indent: -9999px !important;
+	/*text-indent: -9999px !important;*/
+	/*border: 3px solid #FF9999;*/
+	border-radius: 4px;
 }
 
 .buttons li a:hover {
-	background-position: 0 -40px;
+	background-position: 0 -40px !important;
+	/*border: 3px solid #CC0000;*/
 }
 .buttons li a {
 	background-color: transparent;
@@ -61,42 +66,44 @@ body {
 	background-color: #48c4d2;
 }
 
-.social-icons li.facebook a {
+.buttons li.facebook a {
 	background: url(../icons/facebook.png) no-repeat 0 0;
 }
-.social-icons li.facebook a:hover {
+.buttons li.facebook a:hover {
 	background-color: #3b5998;
 }
 
-.social-icons li.googleplus a {
+.buttons li.googleplus a {
 	background: url(../icons/googleplus.png) no-repeat 0 0;
 }
-.social-icons li.googleplus a:hover {
+.buttons li.googleplus a:hover {
 	background-color: #d94a39;
 }
 
-.social-icons li.pinterest a {
+.buttons li.pinterest a {
 	background: url(../icons/pinterest.png) no-repeat 0 0;
 }
-.social-icons li.pinterest a:hover {
+.buttons li.pinterest a:hover {
 	background-color: #cb2027;
 }
 
-.social-icons li.linkedin a {
+.buttons li.linkedin a {
 	background: url(../icons/linkedin.png) no-repeat 0 0;
 }
-.social-icons li.linkedin a:hover {
+.buttons li.linkedin a:hover {
 	background-color: #71b2d0;
 }
 
-.social-icons li.flickr a {
+.buttons li.flickr a {
 	background: url(../icons/flickr.png) no-repeat 0 0;
 }
-.social-icons li.flickr a:hover {
+.buttons li.flickr a:hover {
 	background-color: #f1628b;
 }
 
 .footer {
     text-align: center;
-    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 10px;
 }
