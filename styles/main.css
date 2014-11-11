@@ -2,10 +2,11 @@
 body {
     background: linear-gradient(#FAFFFF, #EBF5FF);
     font-family: 'Chelsea Market', cursive, Tahoma, Arial;
-    color:	#293D3D;
+    color:  #293D3D;
     list-style: none;
     margin: 0;
     padding: 0;
+    font-size: 1vw;
 }
 
 .hello {
@@ -20,90 +21,92 @@ body {
 
 /* FOOTER */
 
+footer {
+    width: 100%;
+    height: 30vh;
+}
+
 .buttons {
-	list-style-type: none;
-	text-align: center;
-	margin: 0 !important;
+    list-style-type: none;
+    text-align: center;
+    margin: 0 !important;
     padding: 0 !important;
     /*border: 2px !important;*/
 }
 
 .buttons li {
-	/*float:left !important;*/
-	margin-right: 2px!important;
-	margin-bottom: 2px!important;
-	padding: 0px!important;
-	display: inline !important;
-	/*width: auto !important;*/
-	/*border: 2px;*/
+
+    margin-right: 2px!important;
+    margin-bottom: 2px!important;
+    padding: 0px!important;
+    display: inline-block !important;
 }
 
 .buttons li a {
-	transition: all 0.3s ease-in-out 0s;
-	float: left !important;
-	height: 100% !important;
-	margin: 0 !important;
-	padding: 0 !important;
-	width: 40px !important;
-	height: 40px !important;
-	/*text-indent: -9999px !important;*/
-	/*border: 3px solid #FF9999;*/
-	border-radius: 4px;
+    transition: all 0.3s ease-in-out 0s;
+    float: left !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 40px !important;
+    height: 40px !important;
+    /*border: 3px solid #FF9999;*/
+    border-radius: 4px;
 }
 
 .buttons li a:hover {
-	background-position: 0 -40px !important;
-	/*border: 3px solid #CC0000;*/
+    background-position: 0 -40px !important;
+    /*border: 3px solid #CC0000;*/
 }
 .buttons li a {
-	background-color: transparent;
+    background-color: transparent;
 }
 
 .buttons li.twitter a {
-	background: url(../icons/twitter.png) no-repeat 0 0;
+    background: url(../icons/twitter.png) no-repeat 0 0;
 }
 .buttons li.twitter a:hover {
-	background-color: #48c4d2;
+    background-color: #48c4d2;
 }
 
 .buttons li.facebook a {
-	background: url(../icons/facebook.png) no-repeat 0 0;
+    background: url(../icons/facebook.png) no-repeat 0 0;
 }
 .buttons li.facebook a:hover {
-	background-color: #3b5998;
+    background-color: #3b5998;
 }
 
 .buttons li.googleplus a {
-	background: url(../icons/googleplus.png) no-repeat 0 0;
+    background: url(../icons/googleplus.png) no-repeat 0 0;
 }
 .buttons li.googleplus a:hover {
-	background-color: #d94a39;
+    background-color: #d94a39;
 }
 
 .buttons li.pinterest a {
-	background: url(../icons/pinterest.png) no-repeat 0 0;
+    background: url(../icons/pinterest.png) no-repeat 0 0;
 }
 .buttons li.pinterest a:hover {
-	background-color: #cb2027;
+    background-color: #cb2027;
 }
 
 .buttons li.linkedin a {
-	background: url(../icons/linkedin.png) no-repeat 0 0;
+    background: url(../icons/linkedin.png) no-repeat 0 0;
 }
 .buttons li.linkedin a:hover {
-	background-color: #71b2d0;
+    background-color: #71b2d0;
 }
 
 .buttons li.flickr a {
-	background: url(../icons/flickr.png) no-repeat 0 0;
+    background: url(../icons/flickr.png) no-repeat 0 0;
 }
 .buttons li.flickr a:hover {
-	background-color: #f1628b;
+    background-color: #f1628b;
 }
 
-.footer {
+.copyright {
     text-align: center;
     text-transform: uppercase;
-    margin: 0px;
     font-size: 10px;
+    margin: 0;
 }
